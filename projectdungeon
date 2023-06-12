@@ -302,12 +302,12 @@
         local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
-            Name = "PS Dungeon │ Skeered Hub",
-            LoadingTitle = "Skeered Hub",
-            LoadingSubtitle = "by Skeered",
+            Name = "PS Dungeon │ North Hub",
+            LoadingTitle = "North Hub",
+            LoadingSubtitle = "by North",
             ConfigurationSaving = {
                 Enabled = true,
-                FolderName = "Skeered Hub", -- Create a custom folder for your hub/game
+                FolderName = "North Hub", -- Create a custom folder for your hub/game
                 FileName = "Project Slayer Dungeon"
             },
             Discord = {
@@ -317,10 +317,10 @@
             },
             KeySystem = true,
             KeySettings = {
-                Title = "Skeered Hub",
+                Title = "North Hub",
                 Subtitle = "Key System",
                 Note = "Join discord server for the key",
-                FileName = "SkeeredHub Key", 
+                FileName = "NorthHub Key", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
                 Key = _G.key
