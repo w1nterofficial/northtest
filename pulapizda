@@ -1073,7 +1073,7 @@
                 FileName = "NorthHub Key", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
-                Key = _G.key
+                Key = tactumare69
             }
         })
         local Main = Window:CreateTab("Main", 4483362458)
