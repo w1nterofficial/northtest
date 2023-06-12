@@ -1065,7 +1065,7 @@
                 Invite = "gbHkVD5S2g", 
                 RememberJoins = true
             },
-            KeySystem = false,
+            KeySystem = true,
             KeySettings = {
                 Title = "North Hub",
                 Subtitle = "Key System",
@@ -1073,7 +1073,7 @@
                 FileName = "NorthHub Key", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
-                Key = tactumare69
+                Key = "tactumare69"
             }
         })
         local Main = Window:CreateTab("Main", 4483362458)
