@@ -1065,7 +1065,7 @@
                 Invite = "gbHkVD5S2g", 
                 RememberJoins = true
             },
-            KeySystem = true,
+            KeySystem = false,
             KeySettings = {
                 Title = "North Hub",
                 Subtitle = "Key System",
