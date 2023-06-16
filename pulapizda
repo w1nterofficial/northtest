@@ -1052,9 +1052,9 @@
         local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
-            Name = "PS │ North Hub",
+            Name = "PS │ discord.gg/northnation",
             LoadingTitle = "North Hub",
-            LoadingSubtitle = "by North",
+            LoadingSubtitle = "discord.gg/northnation",
             ConfigurationSaving = {
                 Enabled = true,
                 FolderName = "North Hub", -- Create a custom folder for your hub/game
@@ -1062,7 +1062,7 @@
             },
             Discord = {
                 Enabled = true,
-                Invite = "gbHkVD5S2g", 
+                Invite = "northnation", 
                 RememberJoins = true
             },
             KeySystem = false,
