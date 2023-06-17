@@ -51,7 +51,7 @@
         end)
         end
         -- < Services > --
-        local Loader = loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/Loader'))()
+        local Loader = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Loader'))()
         local VirtualInputManager = game:GetService("VirtualInputManager")
         local UserInputService = game:GetService("UserInputService")
         local ScriptContext = game:GetService("ScriptContext")
@@ -1049,15 +1049,15 @@
 
 
 
-        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/Rayfield'))()
+        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
             Name = "PS │ discord.gg/northnation",
-            LoadingTitle = "North Hub",
+            LoadingTitle = "North Nation",
             LoadingSubtitle = "discord.gg/northnation",
             ConfigurationSaving = {
                 Enabled = true,
-                FolderName = "North Hub", -- Create a custom folder for your hub/game
+                FolderName = "North Nation", -- Create a custom folder for your hub/game
                 FileName = "Project Slayer"
             },
             Discord = {
@@ -1067,13 +1067,13 @@
             },
             KeySystem = false,
             KeySettings = {
-                Title = "North Hub",
+                Title = "North Nation",
                 Subtitle = "Key System",
                 Note = "Join discord server for the key",
-                FileName = "NorthHub Key", 
+                FileName = "North Nation", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
-                Key = tactumare69
+                Key = _G.key
             }
         })
         local Main = Window:CreateTab("Main", 4483362458)
@@ -1089,7 +1089,7 @@
         local NPCs = Main:CreateDropdown({
             Name = "Select NPCs",
             Options = mobs,
-            CurrentOption = "North Hub",
+            CurrentOption = "North Nation",
             MultiSelection = false,
             Flag = "Npcs",
             SectionParent = Settings,
@@ -1136,7 +1136,7 @@
             Callback = function()
                 RN()
                 task.wait(0.1)
-                NPCs:Refresh(mobs,"North HUB")
+                NPCs:Refresh(mobs,"North Nation")
             end,
         })
         
@@ -2599,7 +2599,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         local data = {
                                         ["embeds"] = {
                                             {
-                                                ["title"] = "North Hub: Autoloot",
+                                                ["title"] = "discord.gg/northnation : Autoloot",
                                                 ["description"] =  "**You just got**",
                                                 ["type"] = "rich",
                                                 ["color"] = tonumber(0x7269da),
@@ -2663,7 +2663,7 @@ local FarmAllNpc = Main:CreateToggle({
                                     local data = {
                                     ["embeds"] = {
                                         {
-                                            ["title"] = "North Hub: Autoloot",
+                                            ["title"] = "discord.gg/northnation: Autoloot",
                                             ["description"] =  "**You just got**",
                                             ["type"] = "rich",
                                             ["color"] = tonumber(0x7269da),
