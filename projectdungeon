@@ -315,15 +315,15 @@
                 Invite = "northnation", 
                 RememberJoins = true
             },
-            KeySystem = false,
+            KeySystem = true,
             KeySettings = {
-                Title = "North Nation",
+                Title = "discord.gg/northnation",
                 Subtitle = "Key System",
                 Note = "Join discord server for the key",
                 FileName = "NorthHub Key", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
-                Key = tactumare69
+                Key = "tactumare69"
             }
         })
         local Main = Window:CreateTab("Main", 4483362458)
