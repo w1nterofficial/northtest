@@ -1073,7 +1073,7 @@
                 FileName = "northnation1", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
-                Key = "tactumare69"
+                Key = "northontop69"
             }
         })
         local Main = Window:CreateTab("Main", 4483362458)
